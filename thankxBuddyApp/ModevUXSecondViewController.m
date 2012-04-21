@@ -90,7 +90,7 @@
                           error:&error];
         
     
-//    NSLog(@"givawayarray=%@",giveawaysArray);
+    NSLog(@"givawayarray=%@",giveawaysArray);
 }
 
 #pragma mark - Table view data source
@@ -130,8 +130,20 @@
     //    title = [[giftsDict objectAtIndex:indexPath.row] objectForKey:@"title"];
     
     [cell.textLabel setText:title];
+    
+    // http://10.23.28.44:5000/products
+    
+    NSString *baseUrl = [[NSString alloc] initWithString:@"http://10.23.28.44:5000"];
+    NSString *itemUrl = [items objectForKey:@"img"];
+    NSString *theImageUrl = [[NSString alloc] initWithFormat:@"%@%@", baseUrl, itemUrl];
+    
+    UIImage *tn = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:theImageUrl]]];
+    
+    //UIImage *tn = [UIImage imageWithData:[managedObject valueForKey:@"thumbnail"]];
+    cell.imageView.image = tn; 
+    
 //    cell.imageView.image = [items objectForKey:@"img"];
-    cell.textLabel.font = font;
+   // cell.textLabel.font = font;
     
     //[currentItemDict release];
     return cell;
