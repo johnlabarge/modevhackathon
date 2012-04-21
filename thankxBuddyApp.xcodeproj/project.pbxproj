@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52298FA215435DEA0052AAE3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52298FA115435DEA0052AAE3 /* AddressBook.framework */; };
+		52298FA515435DF20052AAE3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52298FA415435DF20052AAE3 /* MessageUI.framework */; };
+		52FCA46315435EB5000B6950 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA44F15435EB5000B6950 /* NSObject+SBJSON.m */; };
+		52FCA46415435EB5000B6950 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45115435EB5000B6950 /* NSString+SBJSON.m */; };
+		52FCA46515435EB5000B6950 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45315435EB5000B6950 /* SBJSON.m */; };
+		52FCA46615435EB5000B6950 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45515435EB5000B6950 /* SBJsonBase.m */; };
+		52FCA46715435EB5000B6950 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45715435EB5000B6950 /* SBJsonParser.m */; };
+		52FCA46815435EB5000B6950 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45915435EB5000B6950 /* SBJsonWriter.m */; };
+		52FCA46915435EB5000B6950 /* Discoverer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45C15435EB5000B6950 /* Discoverer.m */; };
+		52FCA46A15435EB5000B6950 /* Lead.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA45E15435EB5000B6950 /* Lead.m */; };
+		52FCA46B15435EB5000B6950 /* ReferralRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA46015435EB5000B6950 /* ReferralRecord.m */; };
+		52FCA46C15435EB5000B6950 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA46215435EB5000B6950 /* UIDevice-Hardware.m */; };
 		72064BC6154319350047D488 /* soda-pop-caps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72064BC5154319350047D488 /* soda-pop-caps.jpg */; };
 		72064BC815431AE50047D488 /* cigar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72064BC715431AE50047D488 /* cigar.jpg */; };
 		72064BD115431C510047D488 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 72064BCD15431C510047D488 /* background.png */; };
@@ -61,6 +73,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52298FA115435DEA0052AAE3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		52298FA415435DF20052AAE3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		52FCA44D15435EB5000B6950 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		52FCA44E15435EB5000B6950 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		52FCA44F15435EB5000B6950 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		52FCA45015435EB5000B6950 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		52FCA45115435EB5000B6950 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		52FCA45215435EB5000B6950 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		52FCA45315435EB5000B6950 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		52FCA45415435EB5000B6950 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		52FCA45515435EB5000B6950 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		52FCA45615435EB5000B6950 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		52FCA45715435EB5000B6950 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		52FCA45815435EB5000B6950 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		52FCA45915435EB5000B6950 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		52FCA45B15435EB5000B6950 /* Discoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discoverer.h; sourceTree = "<group>"; };
+		52FCA45C15435EB5000B6950 /* Discoverer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Discoverer.m; sourceTree = "<group>"; };
+		52FCA45D15435EB5000B6950 /* Lead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lead.h; sourceTree = "<group>"; };
+		52FCA45E15435EB5000B6950 /* Lead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lead.m; sourceTree = "<group>"; };
+		52FCA45F15435EB5000B6950 /* ReferralRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferralRecord.h; sourceTree = "<group>"; };
+		52FCA46015435EB5000B6950 /* ReferralRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferralRecord.m; sourceTree = "<group>"; };
+		52FCA46115435EB5000B6950 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		52FCA46215435EB5000B6950 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
 		72064BC5154319350047D488 /* soda-pop-caps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "soda-pop-caps.jpg"; sourceTree = "<group>"; };
 		72064BC715431AE50047D488 /* cigar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cigar.jpg; sourceTree = "<group>"; };
 		72064BCD15431C510047D488 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
@@ -127,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52298FA515435DF20052AAE3 /* MessageUI.framework in Frameworks */,
+				52298FA215435DEA0052AAE3 /* AddressBook.framework in Frameworks */,
 				72B050B1154312CF00A9661F /* UIKit.framework in Frameworks */,
 				72B050B3154312CF00A9661F /* Foundation.framework in Frameworks */,
 				72B050B5154312CF00A9661F /* CoreGraphics.framework in Frameworks */,
@@ -136,6 +173,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52FCA44C15435EB5000B6950 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				52FCA44D15435EB5000B6950 /* JSON.h */,
+				52FCA44E15435EB5000B6950 /* NSObject+SBJSON.h */,
+				52FCA44F15435EB5000B6950 /* NSObject+SBJSON.m */,
+				52FCA45015435EB5000B6950 /* NSString+SBJSON.h */,
+				52FCA45115435EB5000B6950 /* NSString+SBJSON.m */,
+				52FCA45215435EB5000B6950 /* SBJSON.h */,
+				52FCA45315435EB5000B6950 /* SBJSON.m */,
+				52FCA45415435EB5000B6950 /* SBJsonBase.h */,
+				52FCA45515435EB5000B6950 /* SBJsonBase.m */,
+				52FCA45615435EB5000B6950 /* SBJsonParser.h */,
+				52FCA45715435EB5000B6950 /* SBJsonParser.m */,
+				52FCA45815435EB5000B6950 /* SBJsonWriter.h */,
+				52FCA45915435EB5000B6950 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		52FCA45A15435EB5000B6950 /* SDKClasses */ = {
+			isa = PBXGroup;
+			children = (
+				52FCA45B15435EB5000B6950 /* Discoverer.h */,
+				52FCA45C15435EB5000B6950 /* Discoverer.m */,
+				52FCA45D15435EB5000B6950 /* Lead.h */,
+				52FCA45E15435EB5000B6950 /* Lead.m */,
+				52FCA45F15435EB5000B6950 /* ReferralRecord.h */,
+				52FCA46015435EB5000B6950 /* ReferralRecord.m */,
+				52FCA46115435EB5000B6950 /* UIDevice-Hardware.h */,
+				52FCA46215435EB5000B6950 /* UIDevice-Hardware.m */,
+			);
+			path = SDKClasses;
+			sourceTree = "<group>";
+		};
 		72064BC4154313C10047D488 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +238,8 @@
 		72B050AF154312CF00A9661F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52298FA115435DEA0052AAE3 /* AddressBook.framework */,
+				52298FA415435DF20052AAE3 /* MessageUI.framework */,
 				72B050B0154312CF00A9661F /* UIKit.framework */,
 				72B050B2154312CF00A9661F /* Foundation.framework */,
 				72B050B4154312CF00A9661F /* CoreGraphics.framework */,
@@ -176,6 +250,8 @@
 		72B050B6154312CF00A9661F /* thankxBuddyApp */ = {
 			isa = PBXGroup;
 			children = (
+				52FCA44C15435EB5000B6950 /* SBJson */,
+				52FCA45A15435EB5000B6950 /* SDKClasses */,
 				72B050BF154312CF00A9661F /* ModevUXAppDelegate.h */,
 				72B050C0154312CF00A9661F /* ModevUXAppDelegate.m */,
 				72B050C2154312CF00A9661F /* ModevUXFirstViewController.h */,
@@ -357,6 +433,16 @@
 				72B050CB154312CF00A9661F /* ModevUXSecondViewController.m in Sources */,
 				72B050DF1543139000A9661F /* ModevUXThirdViewController.m in Sources */,
 				7280D4851543562700D47AC5 /* DetailViewController.m in Sources */,
+				52FCA46315435EB5000B6950 /* NSObject+SBJSON.m in Sources */,
+				52FCA46415435EB5000B6950 /* NSString+SBJSON.m in Sources */,
+				52FCA46515435EB5000B6950 /* SBJSON.m in Sources */,
+				52FCA46615435EB5000B6950 /* SBJsonBase.m in Sources */,
+				52FCA46715435EB5000B6950 /* SBJsonParser.m in Sources */,
+				52FCA46815435EB5000B6950 /* SBJsonWriter.m in Sources */,
+				52FCA46915435EB5000B6950 /* Discoverer.m in Sources */,
+				52FCA46A15435EB5000B6950 /* Lead.m in Sources */,
+				52FCA46B15435EB5000B6950 /* ReferralRecord.m in Sources */,
+				52FCA46C15435EB5000B6950 /* UIDevice-Hardware.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,16 +9,17 @@ cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.o /Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o /Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXThirdViewController.o /Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Discoverer.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Discoverer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Lead.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Lead.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ReferralRecord.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/ReferralRecord.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/UIDevice-Hardware.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/UIDevice-Hardware.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.o /Developer/modevhackathon/thankxBuddyApp/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/NSObject+SBJSON.o /Developer/modevhackathon/thankxBuddyApp/SBJson/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/NSString+SBJSON.o /Developer/modevhackathon/thankxBuddyApp/SBJson/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/SBJSON.o /Developer/modevhackathon/thankxBuddyApp/SBJson/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/SBJsonBase.o /Developer/modevhackathon/thankxBuddyApp/SBJson/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/SBJsonParser.o /Developer/modevhackathon/thankxBuddyApp/SBJson/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/SBJsonWriter.o /Developer/modevhackathon/thankxBuddyApp/SBJson/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Discoverer.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Discoverer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Lead.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Lead.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ReferralRecord.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/ReferralRecord.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/UIDevice-Hardware.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/UIDevice-Hardware.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp normal i386
 cGenerateDSYMFile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp
 cCopyStringsFile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/InfoPlist.strings thankxBuddyApp/en.lproj/InfoPlist.strings
@@ -60,10 +61,9 @@ cCpResource "thankxBuddyApp/Table Middle2x.png" "build/Debug-iphonesimulator/tha
 cCpResource "thankxBuddyApp/Table Top Bottom.png" "build/Debug-iphonesimulator/thankxBuddyApp.app/Table Top Bottom.png"
 cCpResource "thankxBuddyApp/Table Top2x.png" "build/Debug-iphonesimulator/thankxBuddyApp.app/Table Top2x.png"
 cCpResource "thankxBuddyApp/Button Green Big Normal2x.png" "build/Debug-iphonesimulator/thankxBuddyApp.app/Button Green Big Normal2x.png"
-cCpResource thankxBuddyApp/header.png build/Debug-iphonesimulator/thankxBuddyApp.app/header.png
-cCpResource thankxBuddyApp/header@2x.png build/Debug-iphonesimulator/thankxBuddyApp.app/header@2x.png
 cCpResource thankxBuddyApp/mainbg.png build/Debug-iphonesimulator/thankxBuddyApp.app/mainbg.png
 cCpResource thankxBuddyApp/mainbg@2x.png build/Debug-iphonesimulator/thankxBuddyApp.app/mainbg@2x.png
+cCompileXIB /Developer/modevhackathon/thankxBuddyApp/DetailViewController.xib
 cTouch /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
@@ -97,160 +97,164 @@ t1332555776
 s9461312
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app
-t1335040601
-s136
+t1335043851
+s1598
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM
-t2
-s0
+t1335043850
+s102
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/116-controller.png
-t2
-s0
+t1335042542
+s3199
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/142-wine-bottle.png
-t2
-s0
+t1335042542
+s187
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/172-pricetag.png
-t2
-s0
+t1335042542
+s418
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/24-gift.png
-t2
-s0
+t1335042542
+s3112
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/31-ipod.png
-t2
-s0
+t1335042542
+s3079
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/34-coffee.png
-t2
-s0
+t1335042542
+s3052
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/38-airplane.png
-t2
-s0
+t1335042542
+s3004
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/45-movie-1.png
-t2
-s0
+t1335042542
+s2892
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/48-fork-and-knife.png
-t2
-s0
+t1335042542
+s2882
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/65-note.png
-t2
-s0
+t1335042542
+s2975
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/74-location.png
-t2
-s0
+t1335042542
+s3114
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/86-camera.png
-t2
-s0
+t1335042542
+s3054
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Button Green Big Normal2x.png
-t2
-s0
+t1335042542
+s27407
+
+N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/DetailViewController.nib
+t1335043851
+s792
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Info.plist
 t1335040601
 s843
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/ModevUXThirdViewController.nib
-t2
-s0
+t1335042543
+s4115
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/PkgInfo
 t1335040601
 s8
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table Bottom2x.png
-t2
-s0
+t1335042542
+s813
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table Header2x.png
-t2
-s0
+t1335042542
+s840
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table HeaderReduced2x.png
-t2
-s0
+t1335042542
+s4667
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table Indicator2x.png
-t2
-s0
+t1335042542
+s201
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table Middle2x.png
-t2
-s0
+t1335042542
+s559
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table Top Bottom.png
-t2
-s0
+t1335042542
+s1134
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Table Top2x.png
-t2
-s0
+t1335042542
+s839
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/background.png
-t2
-s0
+t1335042542
+s90418
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/background.psd
-t2
-s0
+t1335042542
+s1708826
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/background@2x.png
-t2
-s0
+t1335042542
+s404385
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/background@2x.psd
-t2
-s0
+t1335042542
+s7556058
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/cigar.jpg
-t2
-s0
+t1335042542
+s33101
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/InfoPlist.strings
-t2
-s0
+t1335042540
+s42
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/ModevUXFirstViewController.nib
-t2
-s0
+t1335042542
+s1355
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/ModevUXSecondViewController.nib
-t2
-s0
+t1335043851
+s1439
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/first.png
-t2
-s0
+t1335042540
+s253
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/first@2x.png
-t2
-s0
+t1335042540
+s402
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/gifts.png
-t2
-s0
+t1335042542
+s672
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/gifts@2x.png
-t2
-s0
+t1335042542
+s1237
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/giveaways.png
-t2
-s0
+t1335042542
+s709
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/giveaways@2x.png
-t2
-s0
+t1335042542
+s1136
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/header.png
 t2
@@ -261,32 +265,36 @@ t2
 s0
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/mainbg.png
-t2
-s0
+t1335042542
+s477227
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/mainbg@2x.png
-t2
-s0
+t1335042542
+s431644
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/profile.png
-t2
-s0
+t1335042542
+s583
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/second.png
-t2
-s0
+t1335042540
+s128
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/second@2x.png
-t2
-s0
+t1335042540
+s130
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/soda-pop-caps.jpg
-t2
-s0
+t1335042542
+s37583
 
 N/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp
-t2
-s0
+t1335043850
+s51220
+
+N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.o
+t1335043849
+s48976
 
 N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Discoverer.o
 t1335042384
@@ -297,7 +305,7 @@ t1335040663
 s12036
 
 N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o
-t1335040602
+t1335043849
 s68788
 
 N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.o
@@ -305,8 +313,8 @@ t1335040602
 s71952
 
 N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o
-t1335040602
-s72940
+t1335043849
+s71240
 
 N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXThirdViewController.o
 t1335040602
@@ -349,9 +357,9 @@ t1335040602
 s3156
 
 N/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/thankxBuddyApp.LinkFileList
-c000000004F931AF500000000000007D1
-t1335040757
-s2001
+c000000004F93273B000000000000085C
+t1335043899
+s2140
 
 N/Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.h
 c000000004F9317FD0000000000000123
@@ -433,6 +441,21 @@ c000000004F9317FD0000000000006B0F
 t1335039997
 s27407
 
+N/Developer/modevhackathon/thankxBuddyApp/DetailViewController.h
+c000000004F9323680000000000000152
+t1335042920
+s338
+
+N/Developer/modevhackathon/thankxBuddyApp/DetailViewController.m
+c000000004F93236800000000000004AC
+t1335042920
+s1196
+
+N/Developer/modevhackathon/thankxBuddyApp/DetailViewController.xib
+c000000004F9323680000000000001440
+t1335042920
+s5184
+
 N/Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.h
 c000000004F9317FD0000000000000194
 t1335039997
@@ -454,14 +477,14 @@ t1335039997
 s4076
 
 N/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.h
-c000000004F9317FD0000000000000174
-t1335039997
-s372
+c000000004F9323680000000000000170
+t1335042920
+s368
 
 N/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m
-c000000004F9317FD000000000000148A
-t1335039997
-s5258
+c000000004F93236800000000000010A1
+t1335042920
+s4257
 
 N/Developer/modevhackathon/thankxBuddyApp/SBJson/JSON.h
 c000000004F9316BB00000000000008F9
@@ -639,9 +662,9 @@ t1335039997
 s8021
 
 N/Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib
-c000000004F9317FD0000000000001F51
-t1335039997
-s8017
+c000000004F93236800000000000021D4
+t1335042920
+s8660
 
 N/Developer/modevhackathon/thankxBuddyApp/first.png
 c000000004F9317FD00000000000000FD
@@ -735,6 +758,9 @@ s1204
 CBuild AST from /Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.m
 r0
 
+CBuild AST from /Developer/modevhackathon/thankxBuddyApp/DetailViewController.m
+r0
+
 CBuild AST from /Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.m
 r0
 
@@ -779,7 +805,20 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfb24a36c5943b541^9f1cc56c5943b541^---0#1#0#--18"Check dependencies36"6D467BCE-1F35-48C2-A0FE-E695A0E6CFBC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd48158bb5e43b541^217771bb5e43b541^---0#1#0#--18"Check dependencies36"9AE398D8-8AAA-4F50-9E93-B251569304AF-
+
+CCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.o /Developer/modevhackathon/thankxBuddyApp/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356736649.914529
+e356736649.986565
+r1
+xCompileC
+xbuild/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.o
+x/Developer/modevhackathon/thankxBuddyApp/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Developer/modevhackathon/thankxBuddyApp/DetailViewController.mc93cea895e43b541^ef57fd895e43b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Developer/modevhackathon/thankxBuddyApp/DetailViewController.m0000000000000000^3316"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.o thankxBuddyApp/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.dia -c /Developer/modevhackathon/thankxBuddyApp/DetailViewController.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/DetailViewController.o36"F3B374A7-506E-45D4-AF57-BB878A8F53FB-
 
 CCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Discoverer.o /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Discoverer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s356735184.228445
@@ -808,8 +847,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Lead.m3909b9175243b541^753ec4175243b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Developer/modevhackathon/thankxBuddyApp/SDKClasses/Lead.m0000000000000000^3242"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Lead.o thankxBuddyApp/SDKClasses/Lead.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Lead.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Lead.dia -c /Developer/modevhackathon/thankxBuddyApp/SDKClasses/Lead.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/Lead.o36"FC05672A-AF7F-4B61-B84F-D65ECFCC5D29-
 
 CCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o /Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s356733402.051259
-e356733402.123495
+s356736649.827954
+e356736649.911983
 r1
 xCompileC
 xbuild/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o
@@ -818,7 +857,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.ma0880dda5143b541^cf9e1fda5143b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.m0000000000000000^3304"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o thankxBuddyApp/ModevUXAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.dia -c /Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o36"CB58D48E-4961-453E-AEE5-DD12471B6922-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.mfd13d4895e43b541^a986e9895e43b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.m0000000000000000^3304"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o thankxBuddyApp/ModevUXAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.dia -c /Developer/modevhackathon/thankxBuddyApp/ModevUXAppDelegate.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXAppDelegate.o36"A05F140C-ABEA-4AB4-A403-1A2862893C7B-
 
 CCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.o /Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s356733402.116136
@@ -838,8 +877,8 @@ o1 warning generated.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m40dc1dda5143b541^09c23dda5143b541^-217"/Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m:92:19: warning: unused variable 'json' [-Wunused-variable]    NSDictionary* json = [NSJSONSerialization                   ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@22"Unused variable 'json'-356733402#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m0000000000000000^91#18#91#18#2303#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m0000000000000000^3352"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.o thankxBuddyApp/ModevUXFirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.dia -c /Developer/modevhackathon/thankxBuddyApp/ModevUXFirstViewController.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXFirstViewController.o36"1BC90756-50D9-49F9-AC69-2AB164768CB9-
 
 CCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o /Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s356733402.124772
-e356733402.262212
+s356736649.830265
+e356736649.935230
 r1
 xCompileC
 xbuild/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o
@@ -848,11 +887,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m:86:19: warning: unused variable 'json' [-Wunused-variable]
-o    NSDictionary* json = [NSJSONSerialization 
-o                  ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.mf91020da5143b541^d42943da5143b541^-218"/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m:86:19: warning: unused variable 'json' [-Wunused-variable]    NSDictionary* json = [NSJSONSerialization                   ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@22"Unused variable 'json'-356733402#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@86"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m0000000000000000^85#18#85#18#2226#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m0000000000000000^3358"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o thankxBuddyApp/ModevUXSecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.dia -c /Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o36"CFA7CC62-C0D0-459C-9E69-FE1CF808DA33-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m09a8d4895e43b541^8e77ef895e43b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m0000000000000000^3358"CompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o thankxBuddyApp/ModevUXSecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch -MMD -MT dependencies -MF /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.d --serialize-diagnostics /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.dia -c /Developer/modevhackathon/thankxBuddyApp/ModevUXSecondViewController.m -o /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXSecondViewController.o36"B77A6981-44D3-44BD-B8EE-12AC55FFA512-
 
 CCompileC build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/ModevUXThirdViewController.o /Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s356733402.242360
@@ -992,6 +1027,14 @@ xCompileXIB
 x/Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.xib
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.xib87c3766e5943b541^4700936f5943b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.xib0000000000000000^866"CompileXIB thankxBuddyApp/../ModevUXThirdViewController.xib    cd /Developer/modevhackathon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/ModevUXThirdViewController.nib /Developer/modevhackathon/thankxBuddyApp/../ModevUXThirdViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"210AFA13-3D82-43A4-B055-8981E710DE93-
 
+CCompileXIB /Developer/modevhackathon/thankxBuddyApp/DetailViewController.xib
+s356736650.190876
+e356736651.891062
+r1
+xCompileXIB
+x/Developer/modevhackathon/thankxBuddyApp/DetailViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Developer/modevhackathon/thankxBuddyApp/DetailViewController.xiba1f5308a5e43b541^0729e48b5e43b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/modevhackathon/thankxBuddyApp/DetailViewController.xib0000000000000000^842"CompileXIB thankxBuddyApp/DetailViewController.xib    cd /Developer/modevhackathon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/DetailViewController.nib /Developer/modevhackathon/thankxBuddyApp/DetailViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"BF7BF3AE-D292-4E73-9137-E8CB8EB0A855-
+
 CCompileXIB /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXFirstViewController.xib
 s356735340.952078
 e356735342.467006
@@ -1001,12 +1044,12 @@ x/Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXFirstViewController.xi
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXFirstViewController.xib08ccf36c5943b541^a48d776e5943b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXFirstViewController.xib0000000000000000^887"CompileXIB thankxBuddyApp/en.lproj/ModevUXFirstViewController.xib    cd /Developer/modevhackathon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/ModevUXFirstViewController.nib /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXFirstViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"32F099B3-3516-494B-B2BD-D46BA950DCC3-
 
 CCompileXIB /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib
-s356735340.956663
-e356735342.462271
+s356736650.145639
+e356736651.797522
 r1
 xCompileXIB
 x/Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xibcefef46c5943b541^eb57766e5943b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib0000000000000000^890"CompileXIB thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib    cd /Developer/modevhackathon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/ModevUXSecondViewController.nib /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"6FCC22E0-75B5-4CC1-BF52-79BD668A9728-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib4563258a5e43b541^6346cc8b5e43b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib0000000000000000^890"CompileXIB thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib    cd /Developer/modevhackathon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/ModevUXSecondViewController.nib /Developer/modevhackathon/thankxBuddyApp/en.lproj/ModevUXSecondViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"BC1844AE-7B5D-4A7C-9F47-B79BCA3F4573-
 
 CCopyStringsFile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/en.lproj/InfoPlist.strings thankxBuddyApp/en.lproj/InfoPlist.strings
 s356735340.935087
@@ -1369,23 +1412,23 @@ xbuild/Debug-iphonesimulator/thankxBuddyApp.app/soda-pop-caps.jpg
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/thankxBuddyApp.app/soda-pop-caps.jpg66f4776e5943b541^fd83786e5943b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/soda-pop-caps.jpg000000000080d041^686"CpResource thankxBuddyApp/soda-pop-caps.jpg build/Debug-iphonesimulator/thankxBuddyApp.app/soda-pop-caps.jpg    cd /Developer/modevhackathon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Developer/modevhackathon/thankxBuddyApp/soda-pop-caps.jpg /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app36"83F9ACEE-5454-4FF7-BFB3-6832986A7E67-
 
 CGenerateDSYMFile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp
-s356735340.858528
-e356735340.897217
+s356736699.533713
+e356736699.567354
 r1
 xGenerateDSYMFile
 x/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM
 x/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generating /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYMbadddb6c5943b541^f3adef6c5943b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM000000000080d041^637"GenerateDSYMFile build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp    cd /Developer/modevhackathon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp -o /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM36"75942411-7F03-4528-B9F1-952EB2A73F4B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generating /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYMa6b688bb5e43b541^488c92bb5e43b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM/0000000000000000^637"GenerateDSYMFile build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp    cd /Developer/modevhackathon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp -o /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app.dSYM36"E5C76C27-4642-47B9-82F6-1E0034AC62BE-
 
 CLd /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp normal i386
-s356735340.810800
-e356735340.850910
+s356736699.485781
+e356736699.526976
 r1
 xLd
 x/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp93a8cf6c5943b541^2ee4d96c5943b541^---0#0#0#--1189"Ld build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp normal i386    cd /Developer/modevhackathon    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Developer/modevhackathon/build/Debug-iphonesimulator -F/Developer/modevhackathon/build/Debug-iphonesimulator -filelist /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/thankxBuddyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework MessageUI -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp36"D9FDC088-3FE2-449A-9012-3E29326768AF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyAppb3797cbb5e43b541^14e986bb5e43b541^---0#0#0#--1189"Ld build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp normal i386    cd /Developer/modevhackathon    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Developer/modevhackathon/build/Debug-iphonesimulator -F/Developer/modevhackathon/build/Debug-iphonesimulator -filelist /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/Objects-normal/i386/thankxBuddyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework MessageUI -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/thankxBuddyApp36"0E77DCF1-E9A4-4F4B-A6F8-67FA3E53C1D3-
 
 CProcessInfoPlistFile /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app/Info.plist thankxBuddyApp/thankxBuddyApp-Info.plist
 s356733401.383544
@@ -1413,10 +1456,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile thankxBuddyApp/thankxBuddyApp-Prefix.pchd17565d95143b541^3fa7ecd95143b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/modevhackathon/thankxBuddyApp/thankxBuddyApp-Prefix.pch0000000000000000^3317"ProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch.pth thankxBuddyApp/thankxBuddyApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/modevhackathon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-generated-files.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-own-target-headers.hmap -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-all-target-headers.hmap -iquote /Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/thankxBuddyApp-project-headers.hmap -I/Developer/modevhackathon/build/Debug-iphonesimulator/include -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources/i386 -I/Developer/modevhackathon/build/thankxBuddyApp.build/Debug-iphonesimulator/thankxBuddyApp.build/DerivedSources -F/Developer/modevhackathon/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch.dia -c /Developer/modevhackathon/thankxBuddyApp/thankxBuddyApp-Prefix.pch -o /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/thankxBuddyApp-Prefix-djvshlqbopitzjazniveujrijpri/thankxBuddyApp-Prefix.pch.d36"401D8DE7-37D7-43A1-9F53-47B2517F1D31-
 
 CTouch /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app
-s356735343.583097
-e356735343.588128
+s356736699.629682
+e356736699.635811
 r1
 xTouch
 x/Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app9b57956f5943b541^b396966f5943b541^---0#0#0#--376"Touch build/Debug-iphonesimulator/thankxBuddyApp.app    cd /Developer/modevhackathon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app36"D8F1E3FC-7ACC-41E6-8ABC-ADC013C37389-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.appfe44a1bb5e43b541^e3c5a2bb5e43b541^---0#0#0#--376"Touch build/Debug-iphonesimulator/thankxBuddyApp.app    cd /Developer/modevhackathon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/modevhackathon/build/Debug-iphonesimulator/thankxBuddyApp.app36"DC695D63-7E27-4237-962E-8C655CC793B0-
 
