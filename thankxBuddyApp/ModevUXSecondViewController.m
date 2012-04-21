@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#define giveawaysListURL [NSURL URLWithString:@"http://10.23.28.44:5000/products"]
+#define giveawaysListURL [NSURL URLWithString:@"http://10.24.110.253:5000/products"]
 
 #import "ModevUXSecondViewController.h"
 #import "DetailViewController.h"
@@ -133,7 +133,7 @@
     
     // http://10.23.28.44:5000/products
     
-    NSString *baseUrl = [[NSString alloc] initWithString:@"http://10.23.28.44:5000"];
+    NSString *baseUrl = [[NSString alloc] initWithString:@"http://10.24.110.253:5000"];
     NSString *itemUrl = [items objectForKey:@"img"];
     NSString *theImageUrl = [[NSString alloc] initWithFormat:@"%@%@", baseUrl, itemUrl];
     

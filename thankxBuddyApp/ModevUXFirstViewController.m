@@ -7,7 +7,7 @@
 //
 
 
-#define giftsListURL [NSURL URLWithString:@"http://10.23.28.44:5000/messages"]
+#define giftsListURL [NSURL URLWithString:@"http://10.24.110.253:5000/messages"]
 
 #import "ModevUXFirstViewController.h"
 
