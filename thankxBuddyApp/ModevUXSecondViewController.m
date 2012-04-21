@@ -9,6 +9,7 @@
 #define giveawaysListURL [NSURL URLWithString:@"http://10.23.28.44:5000/products"]
 
 #import "ModevUXSecondViewController.h"
+#import "DetailViewController.h"
 
 @implementation ModevUXSecondViewController
 
@@ -83,36 +84,16 @@
 - (void)fetchedData:(NSData *)responseData {
     //parse out the json data
     NSError* error;
-    NSDictionary* json = [NSJSONSerialization 
+    giveawaysArray = [NSJSONSerialization 
                           JSONObjectWithData:responseData //1
                           options:kNilOptions 
                           error:&error];
+        
     
-    
-    
-    
-    //    NSLog(@"offerings: %@", offerings);
+//    NSLog(@"givawayarray=%@",giveawaysArray);
 }
 
 #pragma mark - Table view data source
-
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{ 
-    
-    UIView *containerView;
-    containerView.frame = CGRectMake(0,0,320,39);
-    
-    UILabel *headerLabel;
-    headerLabel.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Table HeaderReduced.png"]];
-    // headerLabel.textColor = [UIColor darkGrayColor];
-    // headerLabel.text = @"Some title";
-    
-    [containerView addSubview:headerLabel];
-    
-    return containerView;
-    
-    
-}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -122,49 +103,37 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return [giveawaysArray count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"cell";
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (nil == cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    UIFont   *font    = [UIFont fontWithName:@"Helvetica-Bold" size:14];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
-    UIImage *rowBackground;
-    NSInteger sectionRows = [tableView numberOfRowsInSection:[indexPath section]];
-    NSInteger row = [indexPath row];
-    if (row == 0 && row == sectionRows - 1)
-    {
-        rowBackground = [UIImage imageNamed:@"Table Bottom.png"];
-    }
-    else if (row == 0)
-    {
-        rowBackground = [UIImage imageNamed:@"Table Middle.png"];
-    }
-    else if (row == sectionRows - 1)
-    {
-        rowBackground = [UIImage imageNamed:@"Table Bottom.png"];
-    }
-    else
-    {
-        rowBackground = [UIImage imageNamed:@"Table Middle.png"];
-    }
-    
-    cell.backgroundView = [[UIImageView alloc] initWithImage:rowBackground];
-    
-	cell.textLabel.font = [UIFont fontWithName:@"Futura Medium" size:17];
-    //      cell.textLabel.text = promotion.shortDescription;
-    //      cell.textLabel.numberOfLines = 2;
-    //      cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
-    //      cell.detailTextLabel.text = @"";
-    //     cell.imageView.image = promotion.business.image;
+    NSString *title;
     
     
+    NSDictionary *items = [[NSDictionary alloc] init];
+    items = [giveawaysArray objectAtIndex:[indexPath row]];
+    NSLog(@"items=%@", items);
+    
+    title = [items objectForKey:@"descShort"];
+    //    title = [[giftsDict objectAtIndex:indexPath.row] objectForKey:@"title"];
+    
+    [cell.textLabel setText:title];
+//    cell.imageView.image = [items objectForKey:@"img"];
+    cell.textLabel.font = font;
+    
+    //[currentItemDict release];
     return cell;
 }
 
@@ -173,14 +142,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    /*    
      DetailViewController *detailViewController = [[DetailViewController alloc] init];
-     detailViewController.fedType = fedType;
-     detailViewController.levelType = levelType;
-     detailViewController.tableView = tableView;
+    detailViewController.selectedItem = [giveawaysArray objectAtIndex:[indexPath row]];
      
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+//     [self.navigationController pushViewController:detailViewController animated:YES];
     
 }
 

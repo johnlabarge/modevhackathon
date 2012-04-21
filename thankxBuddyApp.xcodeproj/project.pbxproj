@@ -50,10 +50,10 @@
 		722E025515433A4D00673BE2 /* Table Middle2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722E024E15433A4D00673BE2 /* Table Middle2x.png */; };
 		722E025615433A4D00673BE2 /* Table Top Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 722E024F15433A4D00673BE2 /* Table Top Bottom.png */; };
 		722E025715433A4D00673BE2 /* Table Top2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722E025015433A4D00673BE2 /* Table Top2x.png */; };
-		7280D47B154342B800D47AC5 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D479154342B800D47AC5 /* header.png */; };
-		7280D47C154342B800D47AC5 /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D47A154342B800D47AC5 /* header@2x.png */; };
 		7280D480154342EC00D47AC5 /* mainbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D47E154342EC00D47AC5 /* mainbg.png */; };
 		7280D481154342EC00D47AC5 /* mainbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D47F154342EC00D47AC5 /* mainbg@2x.png */; };
+		7280D4851543562700D47AC5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280D4831543562700D47AC5 /* DetailViewController.m */; };
+		7280D4861543562700D47AC5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280D4841543562700D47AC5 /* DetailViewController.xib */; };
 		72B050B1154312CF00A9661F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B050B0154312CF00A9661F /* UIKit.framework */; };
 		72B050B3154312CF00A9661F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B050B2154312CF00A9661F /* Foundation.framework */; };
 		72B050B5154312CF00A9661F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B050B4154312CF00A9661F /* CoreGraphics.framework */; };
@@ -127,10 +127,11 @@
 		722E024E15433A4D00673BE2 /* Table Middle2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table Middle2x.png"; sourceTree = "<group>"; };
 		722E024F15433A4D00673BE2 /* Table Top Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table Top Bottom.png"; sourceTree = "<group>"; };
 		722E025015433A4D00673BE2 /* Table Top2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table Top2x.png"; sourceTree = "<group>"; };
-		7280D479154342B800D47AC5 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
-		7280D47A154342B800D47AC5 /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
 		7280D47E154342EC00D47AC5 /* mainbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbg.png; sourceTree = "<group>"; };
 		7280D47F154342EC00D47AC5 /* mainbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainbg@2x.png"; sourceTree = "<group>"; };
+		7280D4821543562700D47AC5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7280D4831543562700D47AC5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7280D4841543562700D47AC5 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		72B050AC154312CF00A9661F /* thankxBuddyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thankxBuddyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B050B0154312CF00A9661F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72B050B2154312CF00A9661F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -267,6 +268,9 @@
 				72B050CA154312CF00A9661F /* ModevUXSecondViewController.m */,
 				72B050DC1543139000A9661F /* ModevUXThirdViewController.h */,
 				72B050DD1543139000A9661F /* ModevUXThirdViewController.m */,
+				7280D4821543562700D47AC5 /* DetailViewController.h */,
+				7280D4831543562700D47AC5 /* DetailViewController.m */,
+				7280D4841543562700D47AC5 /* DetailViewController.xib */,
 				72064BC4154313C10047D488 /* Resources */,
 				72B050DB154312E400A9661F /* images */,
 				72B050B7154312CF00A9661F /* Supporting Files */,
@@ -290,8 +294,6 @@
 			children = (
 				7280D47E154342EC00D47AC5 /* mainbg.png */,
 				7280D47F154342EC00D47AC5 /* mainbg@2x.png */,
-				7280D479154342B800D47AC5 /* header.png */,
-				7280D47A154342B800D47AC5 /* header@2x.png */,
 				722E023B15433A3500673BE2 /* 116-controller.png */,
 				722E023C15433A3500673BE2 /* 142-wine-bottle.png */,
 				722E023D15433A3500673BE2 /* 172-pricetag.png */,
@@ -420,10 +422,9 @@
 				722E025615433A4D00673BE2 /* Table Top Bottom.png in Resources */,
 				722E025715433A4D00673BE2 /* Table Top2x.png in Resources */,
 				7217A5A315433D3A00169B89 /* Button Green Big Normal2x.png in Resources */,
-				7280D47B154342B800D47AC5 /* header.png in Resources */,
-				7280D47C154342B800D47AC5 /* header@2x.png in Resources */,
 				7280D480154342EC00D47AC5 /* mainbg.png in Resources */,
 				7280D481154342EC00D47AC5 /* mainbg@2x.png in Resources */,
+				7280D4861543562700D47AC5 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +450,7 @@
 				52FCA4421543526D000B6950 /* SBJsonBase.m in Sources */,
 				52FCA4431543526D000B6950 /* SBJsonParser.m in Sources */,
 				52FCA4441543526D000B6950 /* SBJsonWriter.m in Sources */,
+				7280D4851543562700D47AC5 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
