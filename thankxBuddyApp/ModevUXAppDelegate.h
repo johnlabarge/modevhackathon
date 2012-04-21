@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModevUXAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface ModevUXAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate> {
+    UINavigationController *navigationController;
+    UITabBarController *tabBarController;
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) UITabBarController *tabBarController;
+
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 
 @end
