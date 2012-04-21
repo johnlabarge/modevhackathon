@@ -42,6 +42,8 @@
 		7280D481154342EC00D47AC5 /* mainbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D47F154342EC00D47AC5 /* mainbg@2x.png */; };
 		7280D4851543562700D47AC5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280D4831543562700D47AC5 /* DetailViewController.m */; };
 		7280D4861543562700D47AC5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280D4841543562700D47AC5 /* DetailViewController.xib */; };
+		7280D48D15435D3500D47AC5 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D48B15435D3500D47AC5 /* header.png */; };
+		7280D48E15435D3500D47AC5 /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280D48C15435D3500D47AC5 /* header@2x.png */; };
 		72B050B1154312CF00A9661F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B050B0154312CF00A9661F /* UIKit.framework */; };
 		72B050B3154312CF00A9661F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B050B2154312CF00A9661F /* Foundation.framework */; };
 		72B050B5154312CF00A9661F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B050B4154312CF00A9661F /* CoreGraphics.framework */; };
@@ -97,6 +99,8 @@
 		7280D4821543562700D47AC5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		7280D4831543562700D47AC5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		7280D4841543562700D47AC5 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		7280D48B15435D3500D47AC5 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		7280D48C15435D3500D47AC5 /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
 		72B050AC154312CF00A9661F /* thankxBuddyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thankxBuddyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B050B0154312CF00A9661F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72B050B2154312CF00A9661F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -208,6 +212,8 @@
 		72B050DB154312E400A9661F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				7280D48B15435D3500D47AC5 /* header.png */,
+				7280D48C15435D3500D47AC5 /* header@2x.png */,
 				7280D47E154342EC00D47AC5 /* mainbg.png */,
 				7280D47F154342EC00D47AC5 /* mainbg@2x.png */,
 				722E023B15433A3500673BE2 /* 116-controller.png */,
@@ -341,6 +347,8 @@
 				7280D480154342EC00D47AC5 /* mainbg.png in Resources */,
 				7280D481154342EC00D47AC5 /* mainbg@2x.png in Resources */,
 				7280D4861543562700D47AC5 /* DetailViewController.xib in Resources */,
+				7280D48D15435D3500D47AC5 /* header.png in Resources */,
+				7280D48E15435D3500D47AC5 /* header@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
