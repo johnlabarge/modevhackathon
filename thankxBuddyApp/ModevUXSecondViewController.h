@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ModevUXSecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
-    NSDictionary *giveawaysDict;
+    NSArray *giveawaysArray;
     UITableView *giveawaysTable;
 }
 
