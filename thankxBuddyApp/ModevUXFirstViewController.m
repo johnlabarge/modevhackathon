@@ -7,7 +7,7 @@
 //
 
 
-#define giftsListURL [NSURL URLWithString:@"http://api.kivaws.org/v1/loans/search.json?status=fundraising"]
+#define giftsListURL [NSURL URLWithString:@"http://10.23.28.44:5000/messages"]
 
 #import "ModevUXFirstViewController.h"
 
@@ -16,6 +16,7 @@
 
 @synthesize giftsTableView;
 @synthesize giftsDict;
+@synthesize goodiesArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -89,13 +90,13 @@
 - (void)fetchedData:(NSData *)responseData {
     //parse out the json data
     NSError* error;
-    NSDictionary* json = [NSJSONSerialization 
+    goodiesArray = [NSJSONSerialization 
                           JSONObjectWithData:responseData //1
                           
                           options:kNilOptions 
                           error:&error];
     
-    
+//    NSLog(@"goodies=%@", goodiesArray);
 }
 
 #pragma mark - Table view data source
@@ -108,7 +109,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return [goodiesArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -126,14 +127,20 @@
     
     NSString *title;
     
-    title = @"testing";
-//    title = [[giftsDict objectAtIndex:indexPath.row] objectForKey:@"title"];
+    
+    NSDictionary *items = [[NSDictionary alloc] init];
+    items = [goodiesArray objectAtIndex:[indexPath row]];
+    NSLog(@"GOODIES=%@", goodiesArray);
+    
+    title = [items objectForKey:@"to"];
     
     [cell.textLabel setText:title];
-    
+    //    cell.imageView.image = [items objectForKey:@"img"];
+
     cell.textLabel.font = font;
     
     //[currentItemDict release];
+
     return cell;
 }
 
