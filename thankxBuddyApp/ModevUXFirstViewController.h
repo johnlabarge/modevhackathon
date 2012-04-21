@@ -12,10 +12,13 @@
 
     UITableView *giftsTableView;
     NSDictionary *giftsDict;
+    NSArray *goodiesArray;
+
 
 }
 
 @property (nonatomic, retain) UITableView *giftsTableView;
 @property (nonatomic, retain) NSDictionary *giftsDict;
+@property (nonatomic, retain) NSArray *goodiesArray;
 
 @end
