@@ -6,12 +6,14 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#define giveawaysListURL [NSURL URLWithString:@"http://10.24.110.253:5000/products"]
+#define giveawaysListURL [NSURL URLWithString:@"http://api.remix.bestbuy.com/v1/products(manufacturer=motorola)?apiKey=gcbrumxjpnwp2tg3ebhss933&format=json&sort=name.asc"]
 
 #import "ModevUXSecondViewController.h"
 #import "DetailViewController.h"
 
 @implementation ModevUXSecondViewController
+
+@synthesize navigationController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,6 +48,7 @@
                                withObject:data waitUntilDone:YES];
     });
     
+    navigationController = [[UINavigationController alloc] init];
 }
 
 - (void)viewDidUnload
@@ -84,13 +87,14 @@
 - (void)fetchedData:(NSData *)responseData {
     //parse out the json data
     NSError* error;
-    giveawaysArray = [NSJSONSerialization 
+    NSDictionary *productList = [NSJSONSerialization 
                           JSONObjectWithData:responseData //1
                           options:kNilOptions 
                           error:&error];
         
     
-    NSLog(@"givawayarray=%@",giveawaysArray);
+    giveawaysArray = [productList objectForKey:@"products"];
+//    NSLog(@"givawayarray=%@",giveawaysArray);
 }
 
 #pragma mark - Table view data source
@@ -116,7 +120,6 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    UIFont   *font    = [UIFont fontWithName:@"Helvetica-Bold" size:14];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     NSString *title;
@@ -126,18 +129,21 @@
     items = [giveawaysArray objectAtIndex:[indexPath row]];
     NSLog(@"items=%@", items);
     
-    title = [items objectForKey:@"descShort"];
-    //    title = [[giftsDict objectAtIndex:indexPath.row] objectForKey:@"title"];
+    title = [items objectForKey:@"name"];
     
     [cell.textLabel setText:title];
     
+    /*
     // http://10.23.28.44:5000/products
     
     NSString *baseUrl = [[NSString alloc] initWithString:@"http://10.24.110.253:5000"];
-    NSString *itemUrl = [items objectForKey:@"img"];
+    NSString *itemUrl = [items objectForKey:@"thumbnailImage"];
     NSString *theImageUrl = [[NSString alloc] initWithFormat:@"%@%@", baseUrl, itemUrl];
+    */
     
-    UIImage *tn = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:theImageUrl]]];
+    NSString *thumbnailImage = [items objectForKey:@"thumbnailImage"];
+    
+    UIImage *tn = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:thumbnailImage]]];
     
     //UIImage *tn = [UIImage imageWithData:[managedObject valueForKey:@"thumbnail"]];
     cell.imageView.image = tn; 
@@ -157,7 +163,7 @@
      DetailViewController *detailViewController = [[DetailViewController alloc] init];
     detailViewController.selectedItem = [giveawaysArray objectAtIndex:[indexPath row]];
      
-//     [self.navigationController pushViewController:detailViewController animated:YES];
+//     [navigationController pushViewController:detailViewController animated:YES];
     
 }
 

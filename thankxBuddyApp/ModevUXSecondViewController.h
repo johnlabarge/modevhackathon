@@ -13,4 +13,6 @@
     UITableView *giveawaysTable;
 }
 
+@property (nonatomic, retain) UINavigationController *navigationController;
+
 @end

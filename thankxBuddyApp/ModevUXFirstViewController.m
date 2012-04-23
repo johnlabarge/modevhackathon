@@ -7,7 +7,7 @@
 //
 
 
-#define giftsListURL [NSURL URLWithString:@"http://10.24.110.253:5000/messages"]
+#define giftsListURL [NSURL URLWithString:@"http://api.remix.bestbuy.com/v1/products(manufacturer=apple)?apiKey=gcbrumxjpnwp2tg3ebhss933&format=json&sort=name.asc"]
 
 #import "ModevUXFirstViewController.h"
 
@@ -90,12 +90,13 @@
 - (void)fetchedData:(NSData *)responseData {
     //parse out the json data
     NSError* error;
-    goodiesArray = [NSJSONSerialization 
+    NSDictionary *criteria = [NSJSONSerialization 
                           JSONObjectWithData:responseData //1
                           
                           options:kNilOptions 
                           error:&error];
     
+    goodiesArray = [criteria objectForKey:@"products"];
 //    NSLog(@"goodies=%@", goodiesArray);
 }
 
@@ -130,12 +131,15 @@
     
     NSDictionary *items = [[NSDictionary alloc] init];
     items = [goodiesArray objectAtIndex:[indexPath row]];
-    NSLog(@"GOODIES=%@", goodiesArray);
     
-    title = [items objectForKey:@"to"];
+    title = [items objectForKey:@"name"];
     
     [cell.textLabel setText:title];
-    //    cell.imageView.image = [items objectForKey:@"img"];
+    NSString *thumbnailImage = [items objectForKey:@"thumbnailImage"];
+    
+    UIImage *tn = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:thumbnailImage]]];
+    
+    cell.imageView.image = tn; 
 
     cell.textLabel.font = font;
     
